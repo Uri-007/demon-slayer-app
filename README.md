@@ -1,4 +1,4 @@
-# 🩸 Demon Slayer Fan App 🐍
+# 🩸 Demon Slayer Fan App 
 
 Una aplicación web interactiva inspirada en **Kimetsu no Yaiba**, creada con **Vue 3**, **Vite**, y mucho estilo ⚔️.  
 Incluye una galería de personajes, un *memorama temático*, filtrado dinámico, paginación y un diseño con efectos 3D.
@@ -44,3 +44,20 @@ Incluye una galería de personajes, un *memorama temático*, filtrado dinámico,
 
    ```bash
    git clone https://github.com/tu-usuario/demon-slayer-fan-app.git
+
+2. Entra en el proyecto
+
+cd demon-slayer-fan-app
+
+
+3. Instala dependencias
+
+npm install
+
+
+4. Ejecuta el servidor de desarrollo
+
+npm run dev
+
+
+5. Abre tu navegador en 👉 http://localhost:5173
