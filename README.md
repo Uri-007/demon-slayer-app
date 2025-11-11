@@ -44,7 +44,7 @@ Incluye una galería de personajes, un *memorama temático*, filtrado dinámico,
 1. **Clona el repositorio**
 
    ```bash
-   [git clone https://github.com/tu-usuario/demon-slayer-fan-app.git](https://github.com/Uri-007/demon-slayer-app.git)
+   https://github.com/Uri-007/demon-slayer-app.git
 
 2. Entra en el proyecto
 
