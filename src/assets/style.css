@@ -1,0 +1,87 @@
+@import "tailwindcss";
+
+:root {
+  --dis-indigo: #1b2a4a;
+  --ds-red: #b22b2b;
+  --ds-cream: #f6e9d7;
+}
+
+.card-3d {
+  transform-style: preserve-3d;
+  transition: transform 0.8s;
+}
+
+.card-3d:hover .card-3d-inner {
+  transform: rotateY(15deg) rotateX(6deg) translateZ(6px);
+}
+
+.card-face {
+  backface-visibility: hidden;
+}
+
+
+.rotate-y-180 {
+  transform: rotateY(180deg);
+}
+
+/* Transiciones suaves */
+.fade-zoom-enter-active,
+.fade-zoom-leave-active {
+  transition: all 0.4s ease;
+}
+.fade-zoom-enter-from,
+.fade-zoom-leave-to {
+  opacity: 0;
+  transform: scale(0.9);
+}
+
+/* Animación tipo "pop" de aparición */
+@keyframes pop {
+  0% {
+    transform: scale(0.85) rotateX(15deg);
+    opacity: 0;
+  }
+  100% {
+    transform: scale(1) rotateX(0);
+    opacity: 1;
+  }
+}
+.animate-pop {
+  animation: pop 0.5s cubic-bezier(0.25, 1.25, 0.5, 1) forwards;
+}
+
+@keyframes glow {
+  0% {
+    opacity: 0.3;
+    transform: translateX(-5%);
+  }
+  50% {
+    opacity: 0.8;
+    transform: translateX(5%);
+  }
+  100% {
+    opacity: 0.3;
+    transform: translateX(-5%);
+  }
+}
+.animate-glow {
+  animation: glow 4s ease-in-out infinite;
+}
+
+@keyframes pulse-slow {
+  0% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.02);
+  }
+  100% {
+    opacity: 0.6;
+    transform: scale(1);
+  }
+}
+.animate-pulse-slow {
+  animation: pulse-slow 6s ease-in-out infinite;
+}
