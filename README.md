@@ -19,8 +19,7 @@ Incluye una galería de personajes, un *memorama temático*, filtrado dinámico,
 
 ## 🖥️ Vista previa
 
-![Preview Screenshot](<img width="1164" height="918" alt="image" src="https://github.com/user-attachments/assets/d2eec385-0a25-41dc-bc77-fbb35170bfa4" />
-)
+![Preview Screenshot](<img width="1164" height="918" alt="image" src="https://github.com/user-attachments/assets/d2eec385-0a25-41dc-bc77-fbb35170bfa4" />)
 
 
 
