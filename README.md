@@ -47,7 +47,7 @@ Incluye una galería de personajes, un *memorama temático*, filtrado dinámico,
 
 2. Entra en el proyecto
 
-cd demon-slayer-fan-app
+cd demon-slayer-app
 
 
 3. Instala dependencias
